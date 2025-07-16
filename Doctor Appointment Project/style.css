@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #ffffff;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+    top: 100%;
+    left: 0;
+    z-index: 1000 !important;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.hero-title {
+    font-size: 70px;
+    font-weight: 500;
+
+}
+
+.para-title {
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.hero-text,
+.para-text {
+    font-size: 22px;
+    font-weight: 300;
+    color: #5F6564;
+
+}
+
+.btn-colorful_1 {
+    background-color: #017d6e;
+    border: 1px solid #026358;
+}
+
+.btn-colorful_1:hover {
+    background-color: #e7d703;
+    border-color: #000;
+    color: #000;
+}
+
+.btn-colorful_2 {
+    background-color: #e7e7e7;
+    border: 1px solid #ababab;
+    color: #000;
+}
+
+.btn-colorful_2:hover {
+    background-color: #1dcaf9;
+    ;
+    border-color: #026358;
+    ;
+    color: #000;
+}
+
+.social-row {
+    background-color: #F9FAFA;
+    color: #b2b6b6;
+}
+
+.experience-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+/*p {
+    color: #5F6564;
+}*/
+
+/*Top rated*/
+
+
+
+.btn-custom-healthcare {
+    background-color: #e0f2f1;
+    /* Light teal background */
+    color: #004d40;
+    /* Dark teal text color */
+    border: 1px solid #a7d9d7;
+    /* Slightly darker teal border */
+    border-radius: 50px;
+    /* Highly rounded corners */
+    padding: 2px 10px;
+    /* Adjust padding as needed */
+    font-size: 12px;
+    /* Adjust font size */
+    display: inline-flex;
+    /* Use flexbox to align icon and text */
+    align-items: center;
+    /* Vertically center items */
+    gap: 2px;
+    /* Space between icon and text */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.btn-custom-healthcare :hover {
+    background-color: #d1ebea;
+    /* Slightly darker background on hover */
+    border-color: #92c9c7;
+    /* Slightly darker border on hover */
+    color: #00332d;
+    /* Slightly darker text on hover */
+}
+
+.btn-custom-healthcare .icon-wrapper {
+    background-color: #c8e6e4;
+    /* Lighter teal for icon background */
+    border-radius: 50%;
+    /* Make icon background circular */
+    padding: 8px;
+    /* Padding around the icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-custom-healthcare .icon-wrapper i {
+    color: #004d40;
+    /* Dark teal for the icon */
+    font-size: 1.2rem;
+    /* Adjust icon size */
+}
+
+/*active button*/
+.btn-active_1 {
+    background-color: #e0f2f1;
+    /* Light teal background */
+    color: #004d40;
+    /* Dark teal text color */
+    border: 1px solid #a7d9d7;
+    /* Slightly darker teal border */
+    border-radius: 50px;
+    /* Highly rounded corners */
+    padding: 2px 10px;
+    /* Adjust padding as needed */
+    font-size: 12px;
+    /* Adjust font size */
+    display: inline-flex;
+    /* Use flexbox to align icon and text */
+    align-items: center;
+    /* Vertically center items */
+    gap: 2px;
+    width: 20%;
+    ;
+    /* Space between icon and text */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.btn-active_1:hover {
+    background-color: #d1ebea;
+    /* Slightly darker background on hover */
+    border-color: #92c9c7;
+    /* Slightly darker border on hover */
+    color: #00332d;
+    /* Slightly darker text on hover */
+}
+
+.btn-active_1 .icon-wrapper {
+    background-color: #c8e6e4;
+    /* Lighter teal for icon background */
+    border-radius: 50%;
+    /* Make icon background circular */
+    padding: 8px;
+    /* Padding around the icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-active_1 .icon-wrapper i {
+    color: #004d40;
+    /* Dark teal for the icon */
+    font-size: 1.2rem;
+    /* Adjust icon size */
+}
+
+.doctor-background {
+
+    background-color: #f8f9fa;
+    /* Light background for the doctor section */
+
+    /* Padding around the section */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.btn-outline-success {
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-outline-success:hover {
+    background-color: #fdc4ef;
+    border-color: #000;
+    color: #000;
+}
+
+.dollar {
+    color: #148f6a;
+    font-size: 2rem;
+
+    font-weight: 400 !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    /* or your desired height */
+    object-fit: fill;
+    /* This will crop the image nicely to fill */
+    border-radius: 10px;
+
+    /* optional for rounded corners */
+}
+
+.card-active {
+    background-color: #f8f9fa;
+    /* Light background for the active card */
+    border-radius: 10px;
+    /* Rounded corners for the card */
+    padding: 20px;
+    /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.card-testimonial {
+    height: 25rem;
+    background-color: #f8f9fa;
+    /* Light background for the testimonial card */
+    border-radius: 10px;
+    /* Rounded corners for the card */
+    padding: 20px;
+    /* Padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+
+}
+
+.testimonial-video {
+    background-image: url('/img/ninda.svg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+
+/*Accordion*/
+
+/* Change background & text color when open */
+.accordion-button:not(.collapsed) {
+    background-color: #148f6a;
+    /* Your desired color */
+    color: white;
+    /* Text color */
+}
+
+
+.accordion-item {
+
+    position: relative;
+    overflow: visible;
+
+    border-radius: 10px;
+    /* Optional, for rounded corners */
+    overflow: visible;
+
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(145, 207, 0, 0.797);
+}
+
+.accordion-button {
+
+    border-radius: 5px;
+
+}
+
+.accordion-button.collapsed {
+    border: 3px solid #148f6a;
+    border-radius: 5px;
+}
+
+/* Make the body float above */
+.accordion-body {
+    margin-top: 8px;
+    height: 180px;
+    border-radius: 5px;
+    border: 3px solid #8a0196;
+    position: absolute;
+    top: 100%;
+    /* Position it just below the button */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgb(254, 177, 252);
+    /* Needed for floating effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional, for visual */
+}
+
+/*Content*/
+
+.content-text {
+    color: #fff;
+}
+
+.content-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.content-btn:hover {
+    background-color: #8c009c;
+}
+
+.content-background {
+    background-color: #148f6a;
+    position: relative;
+    z-index: 1;
+    padding: 100px 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.decorative-shape {
+    position: absolute;
+
+    z-index: 0;
+    width: 200px;
+    opacity: 1;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.content-background .content-text,
+.content-background .content-btn {
+    position: relative;
+    z-index: 1;
+}
+
+
+/*Footer*/
+footer {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+footer h6 {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a:hover {
+    color: #148f6a;
+}
+
+hr {
+    color: #8a8a8a;
+    
+}
